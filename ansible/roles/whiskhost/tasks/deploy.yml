@@ -3,5 +3,3 @@
 
 - include: addUser.yml
   when: docker.user is defined
-
-- include: patchKernel.yml
